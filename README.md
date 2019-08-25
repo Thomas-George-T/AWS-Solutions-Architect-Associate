@@ -1,7 +1,8 @@
 <h1 align="center"> AWS Solutions Architect Associate </h1>
-Materials & Resources aimed at acquiring the AWS Certified Solutions Architect Associate. Work in Progress
+Materials & Resources aimed at acquiring the AWS Certified Solutions Architect Associate from an examination point of view. Work in Progress.
 
 <p align="center">
+  <br>
   <br>
   <a href="#">
     <img hright=200 src="https://cdn.svgporn.com/logos/aws.svg">
@@ -16,7 +17,8 @@ Edge locations are endpoints for AWS which are used for caching content. Typical
 ### Availability Zone
 An Availability zone is one or more discrete data centers, each with redundant power, networking and connectivity, housed in separate facilities.
 ### Region
-A Region is a physical geographical location in the world which consists of two or more Availability zones (AZ’s)
+A Region is a physical geographical location in the world which consists of two or more Availability zones (AZ’s).
+
 **The number of Edge Locations > Number of Availability Zones > The number of Regions.**
 
 # Identity Access Management (IAM)
@@ -30,6 +32,7 @@ IAM allows you manage users and their level of access to their AWS console.
 *	Allows you to set up a password rotation policy.
 *	Integrates with many different AWS services.
 *	Supports PCI DSS Compliance
+
 
 >What is PCI DSS Compliance?
 >
