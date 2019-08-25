@@ -45,6 +45,18 @@ Materials & Resources aimed at acquiring the AWS Certified Solutions Architect A
   - [S3 Encryption](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#s3-encryption)
   - [S3 Versioning](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#s3-versioning)
 
+# Exam blueprint
+* 130 minutes in length
+* 60 Questions (Subject to change)
+* Multiple choice
+* Results are between 100 - 1000 with a passing score of 720
+* Validity of qualification is 2 years
+* Scenario based questions
+ - MCQ
+ - MAQ
+* Exam registration fee is 150 USD
+* Practice exam registration is 20 USD
+
 # Basic Overview
 The ability to try out new ideas and experiment without upfront commitment makes public cloud very powerful.
 
