@@ -31,6 +31,12 @@ Materials & Resources aimed at acquiring the AWS Certified Solutions Architect A
   - [S3 Guarantees](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#s3-guarantees)
   - [Features](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#features)
   - [Storage Classes](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#storage-classes)
+    - [S3 Standard](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#s3-standard)
+    - [S3 – IA (Infrequently Accessed)](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#s3--ia-infrequently-accessed)
+    - [S3 One Zone – IA](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#s3-one-zone--ia)
+    - [S3 – Intelligent Tiering](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#s3--intelligent-tiering)
+    - [S3 - Glacier](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#s3---glacier)
+    - [S3 Glacier Deep Archive](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#s3-glacier-deep-archive)
   - [S3 Applicable Charges](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#s3-applicable-charges)
 
 # Basic Overview
