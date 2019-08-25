@@ -10,7 +10,21 @@ Materials & Resources aimed at acquiring the AWS Certified Solutions Architect A
   <br>
 </p>
 
-# Basic overview
+## Table of Contents
+* [Basic Overview](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#basic-overview)
+  - [Edge Location](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#edge-location)
+  - [Availability Zone](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#availability-zone)
+  - [Region](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#region)
+  
+* [Identity Access Management (IAM)](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#identity-access-management-iam)
+  - [Key features](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#key-features-of-iam)
+  - [Key terminologies](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#key-terminologies-for-iam)
+    - [Users](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#users)
+    - [Groups](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#groups)
+    - [Policies](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#policies)
+    - [Roles](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#roles)
+ 
+# Basic Overview
 
 ### Edge Location
 Edge locations are endpoints for AWS which are used for caching content. Typically, this consist of CloudFront, Amazon’s Content Delivery Network (CDN)
@@ -23,7 +37,7 @@ A Region is a physical geographical location in the world which consists of two 
 
 # Identity Access Management (IAM)
 IAM allows you manage users and their level of access to their AWS console.
-## Key features of IAM:
+## Key features
 *	Centralized access to your AWS account
 *	Shared access to AWS account.
 *	Has Identity federation (Active directory, can connect with social media like Facebook, LinkedIn)
@@ -39,7 +53,7 @@ IAM allows you manage users and their level of access to their AWS console.
 >The Payment Card Industry Data Security Standard (PCI DSS) is a set of security standards designed to ensure that ALL companies that >accept, process, store or transmit credit card information maintain a secure environment.
 >
 
-## Key Terminologies for IAM
+## Key Terminologies
 ### Users
 End users such as people, employees of organizations etc.
 ### Groups
