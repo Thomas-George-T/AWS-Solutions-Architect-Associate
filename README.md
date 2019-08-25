@@ -108,14 +108,6 @@ By default, all newly created buckets are **PRIVATE**. You can setup access cont
 
 S3 buckets can be configured to create access logs which log all requests made to S3 bucket. This can be sent to another bucket and even another bucket in another account.
 
-## S3 Encryption
-- Encryption in Transit is achieved by
-* **SSL/TLS**
-- Encryption At Rest (Server Side) is achieved by
-* **S3 Managed Keys - SSE-S3**
-* **AWS Key Management Service, Managed Keys - SSE-KMS**
-* **Server Side Encryption With Customer Provided Keys - SSE-C**
-- Client Side Encryption
 
 __S3__ is Object based. **Think of Objects just as files** consisting of:
 * Key (This is simply the name of the Object)
@@ -174,11 +166,27 @@ _Insert Table detailing comparisons between the types_
 * Transfer Acceleration
 
 
-**Amazon S3 Transfer Acceleration enables fast, easy and secure transfers of files over long distances between your end users and an S3 bucket.
+**Amazon S3 Transfer Acceleration enables fast, easy and secure transfers of files over long distances between your end users and an S3 bucket.**
 
 
-**Transfer Acceleration takes advantage of Amazon CloudFront's globally distributed  edge locations. As the data arrives at an edge location, data is routed to Amazon S3 over an optimized network path.
+**Transfer Acceleration takes advantage of Amazon CloudFront's globally distributed  edge locations. As the data arrives at an edge location, data is routed to Amazon S3 over an optimized network path.**
 * Cross Region Replication Pricing
+
+## S3 Encryption
+- Encryption in Transit is achieved by
+	* **SSL/TLS**
+- Encryption At Rest (Server Side) is achieved by
+	* **S3 Managed Keys - SSE-S3**
+	* **AWS Key Management Service, Managed Keys - SSE-KMS**
+	* **Server Side Encryption With Customer Provided Keys - SSE-C**
+- Client Side Encryption
+
+## S3 Versioning
+* Stores all version of an object (including all writes and even if you delete an object)
+* Great backup tool.
+* Once enabled, **Versioning cannot be disabled**, only suspended.
+* Integrates with **Lifecycle** rules.
+* Versioning's **MFA Delete** capability, which uses multi-factor authentication, can be used to provide an additional layer of security.
 
 # Resources & Acknowledgements
 * Ryan Kroonenburg - A Cloud Guru
