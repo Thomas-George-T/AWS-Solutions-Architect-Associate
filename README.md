@@ -42,6 +42,19 @@ Materials & Resources aimed at acquiring the AWS Certified Solutions Architect A
   - [S3 Versioning](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#s3-versioning)
 
 # Basic Overview
+The ability to try out new ideas and experiment without upfront commitment makes public cloud very powerful.
+
+### VPC
+A Virtual Private Cloud(VPC) is a virtual network dedicated to a single AWS account. It is logically isolated from other virtual networks in the AWS cloud, providing compute resources with security and robust networking functionality.
+
+### CloudFront
+Amazon CloudFront is a content delivery network offered by Amazon Web Services. Content delivery networks provide a globally-distributed network of proxy servers which cache content, such as web videos or other bulky media, more locally to consumers, thus improving access speed for downloading the content.
+
+### Lambda
+AWS Lambda is an event-driven, serverless computing platform provided by Amazon as a part of the Amazon Web Services. It is a computing service that runs code in response to events and automatically manages the computing resources required by that code.
+
+### Relational Database Service (Amazon RDS)
+Amazon Relational Database Service (or Amazon RDS) is a distributed relational database service by Amazon Web Services (AWS). It is a web service running "in the cloud" designed to simplify the setup, operation, and scaling of a relational database for use in applications. Administration processes like patching the database software, backing up databases and enabling point-in-time recovery are managed automatically
 
 ### Edge Location
 Edge locations are endpoints for AWS which are used for caching content. Typically, this consist of CloudFront, Amazon’s Content Delivery Network (CDN)
