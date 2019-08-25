@@ -12,6 +12,7 @@ Materials & Resources aimed at acquiring the AWS Certified Solutions Architect A
 <br>
 
 ## Table of Contents
+* [Exam Blueprint](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#exam-blueprint)
 * [Basic Overview](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#basic-overview)
   - [VPC](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#vpc)
   - [CloudFront](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#cloudfront)
@@ -52,8 +53,8 @@ Materials & Resources aimed at acquiring the AWS Certified Solutions Architect A
 * Results are between 100 - 1000 with a passing score of 720
 * Validity of qualification is 2 years
 * Scenario based questions
- - MCQ
- - MAQ
+	- MCQ
+	- MAQ
 * Exam registration fee is 150 USD
 * Practice exam registration is 20 USD
 
