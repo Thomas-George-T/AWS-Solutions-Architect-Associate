@@ -1,5 +1,13 @@
-# AWS Solutions Architect Associate 
+<h1 align="center"> AWS Solutions Architect Associate </h1>
 Materials & Resources aimed at acquiring the AWS Certified Solutions Architect Associate. Work in Progress
+
+<p align="center">
+  <br>
+  <br>
+  <img src="https://cdn.svgporn.com/logos/aws.svg">
+  <br>
+  <br>
+</p>
 
 # Basic overview
 
