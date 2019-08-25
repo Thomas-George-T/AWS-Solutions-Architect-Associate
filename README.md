@@ -38,6 +38,8 @@ Materials & Resources aimed at acquiring the AWS Certified Solutions Architect A
     - [S3 - Glacier](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#s3---glacier)
     - [S3 Glacier Deep Archive](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#s3-glacier-deep-archive)
   - [S3 Applicable Charges](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#s3-applicable-charges)
+  - [S3 Encryption](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#s3-encryption)
+  - [S3 Versioning](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#s3-versioning)
 
 # Basic Overview
 
