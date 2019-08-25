@@ -98,7 +98,24 @@ S3 provides developers and IT teams with secure, durable, highly scalable object
 * There is unlimited storage.
 * Files are stored in Buckets.
 * **S3 is a universal namespace** -i.e. names must be unique globally.
+* **Not suitable to install an operating system on.**
 * When you upload a file to S3, you will receive a **HTTP 200 code** if the upload was successful.
+* You can turn on **MFA Delete** 
+
+By default, all newly created buckets are **PRIVATE**. You can setup access control to your buckets using:
+* **Bucket Policies**
+* **Access Control Lists**
+
+S3 buckets can be configured to create access logs which log all requests made to S3 bucket. This can be sent to another bucket and even another bucket in another account.
+
+## S3 Encryption
+- Encryption in Transit is achieved by
+* **SSL/TLS**
+- Encryption At Rest (Server Side) is achieved by
+* **S3 Managed Keys - SSE-S3**
+* **AWS Key Management Service, Managed Keys - SSE-KMS**
+* **Server Side Encryption With Customer Provided Keys - SSE-C**
+- Client Side Encryption
 
 __S3__ is Object based. **Think of Objects just as files** consisting of:
 * Key (This is simply the name of the Object)
@@ -108,6 +125,7 @@ __S3__ is Object based. **Think of Objects just as files** consisting of:
 * Sub resources
   - Access Control Lists
   - Torrent
+  
 ## Data Consistency
 * Read after Write consistency for PUTS of new Objects
 
@@ -154,6 +172,12 @@ _Insert Table detailing comparisons between the types_
 * Storage Management Pricing
 * Data Transfer Pricing
 * Transfer Acceleration
+
+
+**Amazon S3 Transfer Acceleration enables fast, easy and secure transfers of files over long distances between your end users and an S3 bucket.
+
+
+**Transfer Acceleration takes advantage of Amazon CloudFront's globally distributed  edge locations. As the data arrives at an edge location, data is routed to Amazon S3 over an optimized network path.
 * Cross Region Replication Pricing
 
 # Resources & Acknowledgements
