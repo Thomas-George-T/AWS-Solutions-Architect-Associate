@@ -3,9 +3,9 @@ Materials & Resources aimed at acquiring the AWS Certified Solutions Architect A
 
 <p align="center">
   <br>
-  <br>
-  <img src="https://cdn.svgporn.com/logos/aws.svg">
-  <br>
+  <a href="#">
+    <img hright=200 src="https://cdn.svgporn.com/logos/aws.svg">
+  </a>
   <br>
 </p>
 
@@ -31,10 +31,10 @@ IAM allows you manage users and their level of access to their AWS console.
 *	Integrates with many different AWS services.
 *	Supports PCI DSS Compliance
 
-```
-What is PCI DSS Compliance?
-The Payment Card Industry Data Security Standard (PCI DSS) is a set of security standards designed to ensure that ALL companies that accept, process, store or transmit credit card information maintain a secure environment.
-```
+>What is PCI DSS Compliance?
+>
+>The Payment Card Industry Data Security Standard (PCI DSS) is a set of security standards designed to ensure that ALL companies that >accept, process, store or transmit credit card information maintain a secure environment.
+>
 
 ## Key Terminologies for IAM
 ### Users
