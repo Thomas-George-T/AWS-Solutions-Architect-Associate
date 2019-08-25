@@ -1,4 +1,4 @@
-<h1 align="center"> AWS Solutions Architect Associate </h1>
+<h1 align="center"> AWS Solutions Architect Associate 2019</h1>
 Materials & Resources aimed at acquiring the AWS Certified Solutions Architect Associate from an examination point of view. Work in Progress.
 
 <p align="center">
@@ -26,6 +26,12 @@ Materials & Resources aimed at acquiring the AWS Certified Solutions Architect A
     - [Roles](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#roles)
  
 * [S3](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#S3)
+  - [Basics](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#basics)
+  - [Data Consistency](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#data-consistency)
+  - [S3 Guarantees](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#s3-guarantees)
+  - [Features](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#features)
+  - [Storage Classes](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#storage-classes)
+  - [S3 Applicable Charges](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#s3-applicable-charges)
 
 # Basic Overview
 
@@ -61,7 +67,7 @@ IAM allows you manage users and their level of access to their AWS console.
 
 >What is PCI DSS Compliance?
 >
->The Payment Card Industry Data Security Standard (PCI DSS) is a set of security standards designed to ensure that ALL companies that >accept, process, store or transmit credit card information maintain a secure environment.
+>The Payment Card Industry Data Security Standard (PCI DSS) is a set of security standards designed to ensure that ALL companies that accept, process, store or transmit credit card information maintain a secure environment.
 >
 
 ## Key Terminologies
@@ -87,10 +93,12 @@ S3 provides developers and IT teams with secure, durable, highly scalable object
 * Files are stored in Buckets.
 * **S3 is a universal namespace** -i.e. names must be unique globally.
 * When you upload a file to S3, you will receive a **HTTP 200 code** if the upload was successful.
-**S3** is Object based. **Think of Objects just as files** consisting of:
+
+__S3__ is Object based. **Think of Objects just as files** consisting of:
 * Key (This is simply the name of the Object)
 * Value (This is simply the data and is made up of a sequence of bytes)
 * Version ID (Important for versioning)
+* Metadata (Data about data you are storing)
 * Sub resources
   - Access Control Lists
   - Torrent
@@ -111,22 +119,21 @@ If you update **AN EXISTING FILE** or delete a file and read it immediately, you
 * MFA Delete
 * Secure your data using **Access Control Lists** and Bucket Policies
 ## Storage Classes
-1.	**S3 Standard**
-	99.99% availability
-	99.999999999% durability, stored redundantly across multiple devices in multiple facilities, and is designed to sustain the loss of 2 facilities concurrently.
-2.	**S3 – IA**
-	(Infrequently Accessed):
-	For data that is accessed less frequently, but requires rapid access when needed. Lower fee than S3, but you are charged a retrieval fee.
-3.	**S3 One Zone – IA**
-	For where you want a lower cost option for infrequently accessed data, but do not require the multiple Availability Zone data resilience.
-4.	**S3 – Intelligent Tiering**
-	Designed to optimize costs by automatically moving data to the most cost-effective access tier, without performance impact or operational overhead.
-5.	**S3 - Glacier**
-	S3 Glacier is a secure, durable, and low cost storage class for data archiving. you can reliably store any amount of data at costs that are competitive with or cheaper than on premises solutions. Retrieval times configurable from minutes to hours.
-6.  **S3 Glacier Deep Archive**
-	S3 Glacier Deep Archive is Amazon S3's lowest cost storage class where a retrieval time of 12 hours is acceptable.
+### 1. S3 Standard 
+99.99% availability.
+99.999999999% durability, stored redundantly across multiple devices in multiple facilities, and is designed to sustain the loss of 2 facilities concurrently.
+### 2. S3 – IA (Infrequently Accessed)
+For data that is accessed less frequently, but requires rapid access when needed. Lower fee than S3, but you are charged a retrieval fee.
+### 3. S3 One Zone – IA
+For where you want a lower cost option for infrequently accessed data, but do not require the multiple Availability Zone data resilience.
+### 4. S3 – Intelligent Tiering
+Designed to optimize costs by automatically moving data to the most cost-effective access tier, without performance impact or operational overhead.
+### 5. S3 - Glacier
+S3 Glacier is a secure, durable, and low cost storage class for data archiving. you can reliably store any amount of data at costs that are competitive with or cheaper than on premises solutions. Retrieval times configurable from minutes to hours.
+### 6. S3 Glacier Deep Archive
+S3 Glacier Deep Archive is Amazon S3's lowest cost storage class where a retrieval time of 12 hours is acceptable.
 
-_Table detailing comparisons between the types_
+_Insert Table detailing comparisons between the types_
 
 ## S3 Applicable Charges
 * Storage
