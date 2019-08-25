@@ -13,6 +13,10 @@ Materials & Resources aimed at acquiring the AWS Certified Solutions Architect A
 
 ## Table of Contents
 * [Basic Overview](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#basic-overview)
+  - [VPC](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#vpc)
+  - [CloudFront](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#cloudfront)
+  - [Lambda](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#lambda)
+  - [RDS](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#relational-database-service-amazon-rds)
   - [Edge Location](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#edge-location)
   - [Availability Zone](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#availability-zone)
   - [Region](https://github.com/Thomas-George-T/AWS-Solutions-Architect-Associate#region)
