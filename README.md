@@ -1,4 +1,5 @@
-<h1 align="center"> AWS Solutions Architect Associate 2019</h1>
+<h1 align="center"> AWS Solutions Architect Associate 2020</h1>
+<h2 align="center"> Exam Code: SAA-C01 </h2>
 Materials & Resources aimed at acquiring the AWS Certified Solutions Architect Associate from an examination point of view. Work in Progress.
 
 <p align="center">
