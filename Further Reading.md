@@ -20,12 +20,10 @@ It will work with a number of data formats including "JSON", "Apache Parquet", "
 
 RDS database engines have a limit to the number of databases that can run per instance
 
-```
-Both the Oracle and SQL Server database engines have limits to how many databases that can run per instance.
-Primarily, this is due to the underlying technology being proprietary and requiring specific licensing 
-to operate. The database engines based on Open Source technology such as Aurora, MySQL, MariaDB 
-or PostgreSQL have no such limits.
-```
+>Both the Oracle and SQL Server database engines have limits to how many databases that can run per instance.
+>Primarily, this is due to the underlying technology being proprietary and requiring specific licensing 
+>to operate. The database engines based on Open Source technology such as Aurora, MySQL, MariaDB 
+>or PostgreSQL have no such limits.
 
 ### Encryption at Rest
 
@@ -55,7 +53,7 @@ Hypervisors used are:
 
 ### DynamoDB
 
-1. [Request & Response Formats](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Programming.LowLevelAPI.html#Programming.LowLevelAPI.RequestFormat)
+- [Request & Response Formats](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Programming.LowLevelAPI.html#Programming.LowLevelAPI.RequestFormat)
 
 ### SAML
 

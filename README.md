@@ -189,6 +189,8 @@ S3 Glacier is a secure, durable, and low cost storage class for data archiving. 
 ### S3 Glacier Deep Archive
 S3 Glacier Deep Archive is Amazon S3's lowest cost storage class where a retrieval time of 12 hours is acceptable.
 
+### Comparison
+
 | | S3 Standard | S3 Intelligent-Tiering | S3 - IA | S3 One Zone - IA | S3 Glacier | S3 Glacier Deep Archive |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Designed for durability | 99.999999999% (11 9's) | 99.999999999% (11 9's) | 99.999999999% (11 9's) | 99.999999999% (11 9's) | 99.999999999% (11 9's) | 99.999999999% (11 9's) |
@@ -199,6 +201,11 @@ S3 Glacier Deep Archive is Amazon S3's lowest cost storage class where a retriev
 | Minimum storage duration charge | N/A | 30 days | 30 days | 30 days | 90 days | 180 days |
 | Retrieval fee | N/A | N/A | per GB retrieved | per GB retrieved | per GB retrieved | per GB retrieved |
 | First byte latency | milliseconds | milliseconds | milliseconds | milliseconds | select minutes or hours | select hours |  
+| Pricing for all storage / GB | $0.023 | $0.0125 | $0.0125 | $0.0100 | $0.004 | $0.00099 |
+
+**Costwise**
+
+S3 Standard > S3 - IA | S3 Intelligent-Tiering > S3 One Zone - IA > S3 Glacier > S3 Glacier Deep Archive
 
 ## S3 Applicable Charges
 * Storage
