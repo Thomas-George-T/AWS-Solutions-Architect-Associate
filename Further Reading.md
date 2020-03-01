@@ -59,32 +59,32 @@ Hypervisors used are:
 
 ### SAML
 
-1. [Enabling SAML for your AWS resources](https://aws.amazon.com/identity/saml/)
+- [Enabling SAML for your AWS resources](https://aws.amazon.com/identity/saml/)
 
 ### Auto Scaling
 
-1. [Default Termination policy](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-termination.html)
+- [Default Termination policy](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-termination.html)
 
 ### CloudFormation
 
-1. [Template Anatomy](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-anatomy.html)
+- [Template Anatomy](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-anatomy.html)
 
 ## User Guides
 
-1. [DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
+- [DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
 
-2. [AWS WAF, AWS Shield, AWS Firewall Manager](https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html)
+- [AWS WAF, AWS Shield, AWS Firewall Manager](https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html)
 
-3. [AWS Macie](https://docs.aws.amazon.com/macie/latest/userguide/what-is-macie.html)
+- [AWS Macie](https://docs.aws.amazon.com/macie/latest/userguide/what-is-macie.html)
 
 ## FAQ Links
 
-1. [DynamoDB](https://aws.amazon.com/dynamodb/faqs/)
+- [DynamoDB](https://aws.amazon.com/dynamodb/faqs/)
 
-2. [Storage Gatways](https://aws.amazon.com/storagegateway/faqs/)
+- [Storage Gatways](https://aws.amazon.com/storagegateway/faqs/)
 
-3. [EC2](https://aws.amazon.com/ec2/faqs/)
+- [EC2](https://aws.amazon.com/ec2/faqs/)
 
 ## White papers
 
-1. [AWS Security Best Practice](https://aws.amazon.com/blogs/security/new-whitepaper-aws-cloud-security-best-practices/)
+- [AWS Security Best Practice](https://aws.amazon.com/blogs/security/new-whitepaper-aws-cloud-security-best-practices/)
