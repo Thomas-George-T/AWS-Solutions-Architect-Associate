@@ -22,17 +22,18 @@ RDS database engines have a limit to the number of databases that can run per in
 
 ```
 Both the Oracle and SQL Server database engines have limits to how many databases that can run per instance.
-Primarily, this is due to the underlying technology being proprietary and requiring specific licensing to operate. 
-The database engines based on Open Source technology such as Aurora, MySQL, MariaDB or PostgreSQL have no such limits.
+Primarily, this is due to the underlying technology being proprietary and requiring specific licensing 
+to operate. The database engines based on Open Source technology such as Aurora, MySQL, MariaDB 
+or PostgreSQL have no such limits.
 ```
 
 ### Encryption at Rest
 
-* EBS, S3 and EFS all allow the user to configure encryption at rest using either the AWS Key Management Service (KMS) or, in some cases, using customer provided keys. 
+* **EBS**, **S3** and **EFS** all allow the user to configure encryption at rest using either the AWS Key Management Service (KMS) or, in some cases, using customer provided keys. 
 
-* Elasticache for Redis offers a native encryption service but Elasticache for Memcached does not.
+* **Elasticache** for **Redis** offers a native encryption service but Elasticache for Memcached does not.
 
-* For EC2, encryption at rest can be achieved by:
+* For **EC2**, encryption at rest can be achieved by:
 	1. Using third party volume encryption tools
 	2. Encrypting your data inside your application, before storing it on EBS.
 	3. Encrypting the data using native encryption tools available in the operating system (such as Windows BitLocker)
