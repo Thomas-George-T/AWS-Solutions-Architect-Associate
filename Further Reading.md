@@ -1,57 +1,87 @@
 
-Amazon Athena
+## Notes
+
+### Amazon Athena
 
 Amazon Athena is an interactive query service that makes it easy to analyse data in Amazon S3, using standard SQL commands. 
 It will work with a number of data formats including "JSON", "Apache Parquet", "Apache ORC" amongst others, but "XML" is not a format that is supported.
 
-Stateless services:
+### Stateless services
 1. RDS
 2. DynamoDB
 3. ElastiCache
+4. Network Access Control lists (nACL)
 
-Stateful services:
+### Stateful services
 1. Elastic load balancer
+2. Security Groups
 
-RDS
+### RDS
 
 RDS database engines have a limit to the number of databases that can run per instance
 
-	Both the Oracle and SQL Server database engines have limits to how many databases that can run per instance. Primarily, this is due to the underlying technology being proprietary and requiring specific licensing to operate. The database engines based on Open Source technology such as Aurora, MySQL, MariaDB or PostgreSQL have no such limits.
+```
+Both the Oracle and SQL Server database engines have limits to how many databases that can run per instance. Primarily, this is due to the underlying technology being proprietary and requiring specific licensing to operate. The database engines based on Open Source technology such as Aurora, MySQL, MariaDB or PostgreSQL have no such limits.
+```
 
-Encryption at Rest
+### Encryption at Rest
 
-EBS, S3 and EFS all allow the user to configure encryption at rest using either the AWS Key Management Service (KMS) or, in some cases, using customer provided keys. 
+* EBS, S3 and EFS all allow the user to configure encryption at rest using either the AWS Key Management Service (KMS) or, in some cases, using customer provided keys. 
 
-Elasticache for Redis offers a native encryption service but Elasticache for Memcached does not.
+* Elasticache for Redis offers a native encryption service but Elasticache for Memcached does not.
 
-FAQ Links
+* For EC2, encryption at rest can be achieved by:
+	1. Using third party volume encryption tools
+	2. Encrypting your data inside your application, before storing it on EBS.
+	3. Encrypting the data using native encryption tools available in the operating system (such as Windows BitLocker)
+	
+### EC2
+ 
+Hypervisors used are:
+1. Nitro
+2. Xen
+3. KVM
 
-DynamoDB
-https://aws.amazon.com/dynamodb/faqs/
+### Four levels of AWS premium
+1. Basic
+2. Startup
+3. Business
+4. Enterprise
 
-Storage Gatways
-https://aws.amazon.com/storagegateway/faqs/
+## Useful Resources
 
-Useful Resources
+### DynamoDB
 
-DynamoDB
+1. [Request & Response Formats](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Programming.LowLevelAPI.html#Programming.LowLevelAPI.RequestFormat)
 
-1. Request & Response Formats
-https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Programming.LowLevelAPI.html#Programming.LowLevelAPI.RequestFormat
+### SAML
 
-SAML
+1. [Enabling SAML for your AWS resources](https://aws.amazon.com/identity/saml/)
 
-1. Enabling SAML for your AWS resources
-https://aws.amazon.com/identity/saml/
+### Auto Scaling
 
-Auto Scaling
-Default Termination policy
-https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-termination.html
+1. [Default Termination policy](https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-instance-termination.html)
 
-Developer Guides
+### CloudFormation
 
-1. DynamoDB 
-https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html
+1. [Template Anatomy](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-anatomy.html)
 
-White papers
-AWS Security Best Practice
+## User Guides
+
+1. [DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
+
+2. [AWS WAF, AWS Shield, AWS Firewall Manager](https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html)
+
+3. [AWS Macie](https://docs.aws.amazon.com/macie/latest/userguide/what-is-macie.html)
+
+## FAQ Links
+
+[DynamoDB](https://aws.amazon.com/dynamodb/faqs/)
+
+[Storage Gatways](https://aws.amazon.com/storagegateway/faqs/)
+
+[EC2](https://aws.amazon.com/ec2/faqs/)
+
+## White papers
+
+1. [AWS Security Best Practice](https://aws.amazon.com/blogs/security/new-whitepaper-aws-cloud-security-best-practices/)

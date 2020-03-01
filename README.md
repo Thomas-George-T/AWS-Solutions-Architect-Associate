@@ -1,5 +1,5 @@
-<h1 align="center"> AWS Solutions Architect Associate 2020</h1>
-<h2 align="center"> Exam Code: SAA-C01 </h2>
+<h1 align="center"> AWS Solutions Architect Associate 2020 SAA-C01</h1>
+
 Materials & Resources aimed at acquiring the AWS Certified Solutions Architect Associate from an examination point of view. Work in Progress.
 
 <p align="center">
@@ -231,4 +231,6 @@ S3 Glacier Deep Archive is Amazon S3's lowest cost storage class where a retriev
 * Versioning's **MFA Delete** capability, which uses multi-factor authentication, can be used to provide an additional layer of security.
 
 # Resources & Acknowledgements
-* Ryan Kroonenburg - A Cloud Guru
+* [A Cloud Guru AWS Certified Solutions Architect Associate](https://acloud.guru/learn/aws-certified-solutions-architect-associate)
+* [Notes by @SkullTech](https://github.com/SkullTech/aws-solutions-architect-associate-notes)
+* [Further Reading](Further%20Reading.md)
