@@ -45,9 +45,14 @@ Hypervisors used are:
 
 ### Four levels of AWS premium
 1. Basic
-2. Startup
+2. Developer
 3. Business
 4. Enterprise
+
+### AWS Trusted Advisor
+
+- Trusted Advisor inspects your AWS environment, and then makes recommendations when opportunities exist to save money, improve system availability and performance, or help close security gaps. 
+- All AWS customers have access to five Trusted Advisor checks.
 
 ## Useful Resources
 
@@ -74,6 +79,10 @@ Hypervisors used are:
 - [AWS WAF, AWS Shield, AWS Firewall Manager](https://docs.aws.amazon.com/waf/latest/developerguide/what-is-aws-waf.html)
 
 - [AWS Macie](https://docs.aws.amazon.com/macie/latest/userguide/what-is-macie.html)
+
+- [AWS Support Plans](https://docs.aws.amazon.com/awssupport/latest/user/getting-started.html)
+
+- [AWS Trusted Advisor](https://docs.aws.amazon.com/awssupport/latest/user/getting-started.html#trusted-advisor)
 
 ## FAQ Links
 
