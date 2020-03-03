@@ -56,6 +56,10 @@ Hypervisors used are:
 
 ## Useful Resources
 
+### S3
+
+- [S3 Pricing](https://aws.amazon.com/s3/pricing/)
+
 ### DynamoDB
 
 - [Request & Response Formats](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Programming.LowLevelAPI.html#Programming.LowLevelAPI.RequestFormat)
@@ -88,10 +92,11 @@ Hypervisors used are:
 
 - [DynamoDB](https://aws.amazon.com/dynamodb/faqs/)
 
-- [Storage Gatways](https://aws.amazon.com/storagegateway/faqs/)
+- [Storage Gateways](https://aws.amazon.com/storagegateway/faqs/)
 
 - [EC2](https://aws.amazon.com/ec2/faqs/)
 
 ## White papers
 
 - [AWS Security Best Practice](https://aws.amazon.com/blogs/security/new-whitepaper-aws-cloud-security-best-practices/)
+- [AWS Cloud Best Practice](https://d0.awsstatic.com/whitepapers/AWSCloudBest_Practices.pdf)
