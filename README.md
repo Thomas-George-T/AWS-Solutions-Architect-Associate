@@ -241,3 +241,4 @@ S3 Standard > S3 - IA | S3 Intelligent-Tiering > S3 One Zone - IA > S3 Glacier >
 * [A Cloud Guru AWS Certified Solutions Architect Associate](https://acloud.guru/learn/aws-certified-solutions-architect-associate)
 * [Notes by @SkullTech](https://github.com/SkullTech/aws-solutions-architect-associate-notes)
 * [Further Reading](Further%20Reading.md)
+* [AWS FAQ by Dreadstar22](https://github.com/Dreadstar22/AWS-FAQ)
